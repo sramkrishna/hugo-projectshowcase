@@ -1,11 +1,20 @@
-body {  
+  body {  
     background-color: #fcfcfc;  
-    color: #333;  
     font-size: 125%;  
     line-height: 1.5;  
     margin: 0 auto;  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
-  }  
+  }
+
+  .site {
+      color: shark;
+      background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  }
+
+  .title{
+      color: shark;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  }
   .content {  
     margin-bottom: 2rem;  
   }  
@@ -15,7 +24,7 @@ body {
    align-items: center;  
    justify-content: space-between;  
    height: 25px;  
-   background: gainsboro;  
+   background: lightgrey;  
    padding: 10px;  
  }  
  .navbar__right{  
