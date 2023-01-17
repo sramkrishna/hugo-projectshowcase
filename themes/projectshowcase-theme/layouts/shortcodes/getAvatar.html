@@ -1,3 +1,0 @@
-{{ $username := .Get 0 }}
-{{ $output := getJSON "https://api.github.com/users/" $username }}
-{{ index $output "avatar_url" }}
